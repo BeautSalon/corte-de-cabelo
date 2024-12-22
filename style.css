@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    /* background-color: rgba(255, 137, 225, 0.76); */
+    background-image: url(imagens/rosa\ textura.avif);
+    justify-content: center;
+    flex-direction: column;
+    align-items: stretch;
+}
+.logo{
+    width: 93%;
+}
+.carregando{
+    height: 30px;
+}
+.voltar{
+    height: 28px;
+    margin-right: 84%;
+    margin-top: 17px;
+}
+header {
+    display: flex;
+    background: url(imagens/rosa\ textura.avif) center center no-repeat fixed;
+    margin: -9px -8px 0px -8px;
+    background-size: cover;
+    text-align: center;
+    border: 1px;
+    border-radius: 0px 0px 10px 10px;
+    border-style: solid;
+    border-color: black;
+    justify-content: center;
+}
+.carregar{
+    margin: 0px 39%;
+    width: 20%;
+}
+.rodape {
+    display: flex;
+    background: url(imagens/rosa\ textura.avif) center center no-repeat fixed;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    margin: 11px -8px -9px -8px;
+    background-size: cover;
+    text-align: center;
+    border: 1px;
+    border-radius: 10px 10px 0px 0px;
+    border-style: solid;
+    border-color: black;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+form.form{
+    background-color: #ffb6f9;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 34px;
+    margin: 50px;
+    border-width: 0.5px;
+    border-style: solid;
+    border-radius: 10px;
+}
+label {
+    margin: 10px;
+    font-weight: bold;
+}
+.botaoenv{
+    margin-top: 40px;
+}
+.botaoenv:hover {
+    text-decoration: underline;
+    border-style: solid;
+}
+p{
+    margin: 70px 0px;
+}
+img.icones{
+    margin: 1px;
+    height: 40px;
+}
+img.icones:hover{
+    height: 50px;
+}
+.mensagem{
+    height: 100px;
+    width: 190px;
+}
+table{
+    text-align: center;
+}
+.textoarea{
+    margin: 25px;
+}
+.texto{
+    text-align: justify;
+}
+.texto1{
+    text-align: center;
+}
